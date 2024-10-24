@@ -6,9 +6,9 @@ import './Home.css';
 const Home = () => {
   return (
     <div className="home-container">
-      <h1 className="home-title">Launchpad Coworking</h1>
+      <h1 className="home-title">ResV</h1>
       <p className="home-para">
-        At Launchpad Coworking, we redefine the way you work. Discover exceptional spaces designed to elevate your productivity 
+        At ResV, we redefine the way you work. Discover exceptional spaces designed to elevate your productivity 
         and creativity.
       </p>
       <div className="button-container">
