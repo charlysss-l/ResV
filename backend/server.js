@@ -15,7 +15,7 @@ const loginAdm = require('./src/routes/login');
 const app = express();
 
 app.use(cors({
-    origin: 'https://lp-reservation.vercel.app', 
+    origin: 'https://res-v.vercel.app', 
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     credentials: true
 }));
