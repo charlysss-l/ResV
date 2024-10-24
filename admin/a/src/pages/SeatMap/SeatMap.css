@@ -79,7 +79,7 @@
     color: rgba(28, 24, 24, 0.448);
 }
 .choose-photo:hover{
-    border: 1px solid green;
+    border: 1px solid #b42424;
 }
 .floorMapImage {
     width: 90%;

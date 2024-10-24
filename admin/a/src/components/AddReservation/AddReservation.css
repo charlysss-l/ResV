@@ -81,7 +81,7 @@ select{
 button.submit-button-reservation {
     width: 100%;
     padding: 10px 0;
-    background-image: linear-gradient(to bottom, #829460, #b27f95);
+    background-image: linear-gradient(to bottom, #b42424, #b27f95);
     color: white;
     border: 2px solid white;
     border-radius: 10px;
