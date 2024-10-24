@@ -1,0 +1,90 @@
+.main-container-reservation {
+    position: relative;
+}
+
+
+.seatMap-title {
+    font-size: 40px;
+    color: #f2f2f2;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #E4AEC5;
+    width: 98%; /* Adjust width to fit the parent container */
+    padding: 1%;
+    margin: 0;
+    box-shadow: 0 8px 8px rgb(112, 111, 111);
+    position: relative;
+
+}
+
+.fileUploadBtn {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    background-color: #E4AEC5;
+    transform: translateY(-50%);
+}
+
+.fileUploadBtn input {
+    height: 20px;
+    width: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    font-size: 10px;
+    cursor: pointer;
+}
+
+.uploadBtn {
+    height: 40px;
+    width: 80px;
+    background-color: #c04576;
+    color: #ffffff;
+    border-color: #b693a14c;
+    border-radius: 10px;
+    font-size: 14px;
+    margin: 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.4s, color 0.3s, border-color 0.3s;
+}
+
+.uploadBtn:hover {
+    background-color: #945570;
+    color: #f2f2f2;
+    border: 1px solid #ff0095;
+}
+
+.bothContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 0px;
+    flex-direction: column;
+}
+.choose-photo{
+    background-color: #E4AEC5;
+    border: 1px solid rgba(0, 0, 0, 0.268);
+    width: 100px;
+    color: rgba(28, 24, 24, 0.448);
+}
+.choose-photo:hover{
+    border: 1px solid green;
+}
+.floorMapImage {
+    width: 90%;
+    height: 600px;
+    margin: -10px;
+    
+
+}

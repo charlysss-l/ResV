@@ -1,0 +1,62 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-image: url('../../assets/home-background.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 100vh; 
+}
+.home-title {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 80px;
+    color: #ffffff;
+    text-shadow: 1px 3px rgba(15, 14, 14, 0.125);
+    margin-bottom: 40px;
+    background-color: transparent;
+}
+
+.home-title:hover{
+    color: #D4AF37;
+    text-shadow: 3px 5px rgb(17, 16, 16);
+    transition: 0.4s ease-in-out;
+}
+
+.home-para{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    width: 700px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 40px;
+    background-color: transparent;
+}
+.button-container {
+    display: flex;
+
+    align-items: center;
+    gap: 20px;
+    background-color: transparent;
+}
+
+.home-availability {
+    display: block;
+    width: 300px;
+    padding: 15px 0;
+     font-family: Arial, Helvetica, sans-serif;
+   background-image: linear-gradient(to bottom, #829460, #9ab370);
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    border: 2px solid #00000033;
+    border-radius: 10px;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.home-availability:hover {
+    border-color: #d4af37ce;
+}
