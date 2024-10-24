@@ -28,8 +28,8 @@ const Admin = () => {
       </MaybeShowNavbar>
 
       <Routes>
-        <Route path="/" element={<Login />} />
-        <Route path="/home" element={<Home />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/" element={<Home />} />
         <Route path="/admin/seat-map" element={<SeatMap />} />
         <Route path="/admin/add-reservation" element={<AddReservation />} />
         <Route path="/admin/history" element={<History />} />
