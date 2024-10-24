@@ -23,7 +23,7 @@ const Navbar = () => {
 
   return (
     <nav className="navbar">
-      <div className="logo">Launchpad</div>
+      <div className="logo">ResV</div>
       <button className="menu-toggle" onClick={toggleMenu}>
         <div className="bar"></div>
         <div className="bar"></div>

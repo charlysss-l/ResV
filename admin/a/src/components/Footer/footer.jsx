@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-content">
           <p>
-            Copyright © 2024 LaunchPad CoWorking | All rights reserved | 
+            Copyright © 2024 ResV | All rights reserved | 
           </p>
   
           <ul className="credits-list">

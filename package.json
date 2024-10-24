@@ -2,6 +2,11 @@
   "dependencies": {
     "cors": "^2.8.5",
     "firebase": "^10.13.1",
+    "react-router-dom": "^6.27.0",
+    "react-scripts": "^5.0.1",
     "uuid": "^10.0.0"
+  },
+  "devDependencies": {
+    "vite": "^5.4.10"
   }
 }
